@@ -3,9 +3,22 @@
 :root{
     --branco: #ffffff;
     --roxo: #AB5CDB;
+    --roxo-bg: #1B1937;
+    --fundo-page: #0A0C1C;
 }
 
 body{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    background: var(--fundo-page);
+    color: var(--branco);
+}
+
+.container{
+    background: var(--roxo-bg);
+    margin: 5.5em 1.5em;
+}
+
+.banner{
+    width: 100%;
 }
