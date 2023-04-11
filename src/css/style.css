@@ -77,3 +77,13 @@ body{
         justify-content: center;
     }
 }
+
+/*-----------------------------------------------------------------------DESKTOP----------------------------------------------------------------*/
+
+@media screen and (min-width: 1220px){
+    .container{
+        margin: 12em 11em;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
