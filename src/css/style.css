@@ -97,8 +97,17 @@ body{
         padding-left: 2em;
     }
 
+    .container__titulo span:hover{
+        color: cyan;
+    }
+
     .container__info{
         justify-content: flex-start;
         padding-left: 4.5em;
+        gap: 5em;
+    }
+
+    .topicos__desc:hover{
+        color: var(--roxo);
     }
 }
